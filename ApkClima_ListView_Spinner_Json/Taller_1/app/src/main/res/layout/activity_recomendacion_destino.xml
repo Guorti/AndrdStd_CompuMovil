@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recomendacion_Destino_Activity">
+
+    <TextView
+        android:id="@+id/textViewNombreRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="TextView"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewPaisRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewNombreRec"/>
+
+    <TextView
+        android:id="@+id/textViewCategoriaRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:layout_below="@id/textViewPaisRec"/>
+
+    <TextView
+        android:id="@+id/textViewPlanRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewCategoriaRec"/>
+
+    <TextView
+        android:id="@+id/textViewCostoRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:layout_below="@id/textViewPlanRec"/>
+
+
+</RelativeLayout>

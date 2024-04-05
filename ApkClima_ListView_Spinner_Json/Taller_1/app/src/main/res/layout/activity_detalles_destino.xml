@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalles_Destino_Activity"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/textViewNombreDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="TextView"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewNombrePa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewNombreDes"/>
+
+    <TextView
+        android:id="@+id/textViewNombreCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:layout_below="@id/textViewNombrePa"/>
+
+    <TextView
+        android:id="@+id/textViewNombrePlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewNombreCat"/>
+
+    <TextView
+        android:id="@+id/textViewCosto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:layout_below="@id/textViewNombrePlan"/>
+
+    <Button
+        android:id="@+id/buttonAddFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir a Favoritos"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewNombreCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargando"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewNombreRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargando"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewNombreCiudad"/>
+
+    <TextView
+        android:id="@+id/textViewValorNombrePaisClima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargando"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewNombreRegion"/>
+
+    <TextView
+        android:id="@+id/textViewHoraLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargando"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewValorNombrePaisClima"/>
+
+    <TextView
+        android:id="@+id/textViewTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargando"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewHoraLocal"/>
+
+    <TextView
+        android:id="@+id/textViewSensacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargando"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewTemperatura"/>
+
+
+</RelativeLayout>
