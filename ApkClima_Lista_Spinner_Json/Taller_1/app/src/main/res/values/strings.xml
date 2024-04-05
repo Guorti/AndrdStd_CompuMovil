@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Taller_1</string>
-    <string name="explorar_destinos">Explorar Destinos</string>
-    <string name="favoritos">Favoritos</string>
-    <string name="recomendaciones">Recomendaciones</string>
-    <string name="cargando">Cargando...</string>
-</resources>
